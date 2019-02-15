@@ -1,0 +1,8 @@
+https://realpython.com/python-csv/
+
+https://www.w3schools.com/python/python_mongodb_getstarted.asp
+
+https://medium.com/@tomar.ankur287/user-user-collaborative-filtering-recommender-system-51f568489727
+https://www.youtube.com/watch?v=h9gpufJFF-0 (Stanford Lecture on Collaborative Filtering)
+https://towardsdatascience.com/collaborative-filtering-based-recommendation-systems-exemplified-ecbffe1c20b1
+https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.transpose.html
