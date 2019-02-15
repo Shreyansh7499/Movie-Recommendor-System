@@ -95,7 +95,7 @@ def itemCF():
 	return Max_ratings,Max_ratings_index
 
 
-def xyz(xxxx):
+def UserCF(xxxx):
 	Number_of_Users = 10
 	Number_of_Movies_Rated = 15
 	K = 5
@@ -246,7 +246,7 @@ def kasf():
 	Rat.append(x4)
 	Rat.append(x5)
 	
-	ratings,index = xyz(Rat)
+	ratings,index = UserCF(Rat)
 	# print("hello")
 	# print(ratings)
 	# print(index)
