@@ -203,18 +203,22 @@ def xyz(xxxx):
 
 @app.route("/")
 def hello():
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	data = []
+
 	for x in mycol.find():
 		data.append(x)	
 		#print(x)
+	# print("hello")
+	# print(data)
+	# print("hello")	
 	return render_template('index.html',data = data)
 
 @app.route("/form.html")
 def asiuf():
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	data = []
@@ -247,7 +251,7 @@ def kasf():
 	# print(ratings)
 	# print(index)
 
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	data = []
@@ -270,7 +274,7 @@ def kasf():
 
 @app.route("/itemcf.html")
 def assacscas():
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	ratings,index = itemCF()
@@ -278,7 +282,7 @@ def assacscas():
 	# print(ratings)
 	# print(index)
 
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	data = []
@@ -301,7 +305,7 @@ def assacscas():
 
 @app.route("/matrix.html")
 def abababa():
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	ratings,index = itemCF()
@@ -309,7 +313,7 @@ def abababa():
 	# print(ratings)
 	# print(index)
 
-	myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+	myclient = pymongo.MongoClient('mongodb+srv://Shreyansh:QWERTY@cluster0-jo6dn.mongodb.net/admin')
 	mydb = myclient['MyDatabase']
 	mycol = mydb["Movies"]
 	data = []
